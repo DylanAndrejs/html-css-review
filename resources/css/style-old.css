@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+
+
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  }
+
+body { 
+  line-height: 1.5;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+nav {
+background-color: #000;
+height: 60px;
+margin: 0;
+padding: 0;
+text-decoration: none;
+display: flex;
+align-items: center;
+justify-content: space-between;
+list-style: none;
+
+
+}
+
+nav li {
+  display: inline-flex;
+  justify-content: space-between;
+  padding-right: 10px;
+  
+ 
+}
+
+li a {
+text-decoration: none;
+}
+
+.navlogo {
+font-weight: bold;
+text-decoration: none;
+
+}
+
+
+#header {
+background-image: url(../images/ice-cream-cones.jpg);
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+width:1200px;
+height:600px;
+
+}
+
+
+h1 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 4rem;
+  color: #fff;
+  font-family: 'Wix Madefor Display', sans-serif;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 6px gray;
+
+}
+
+#welcome {
+  background-color: #7251B5;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 80px;
+  
+}
+
+#welcome h2 {
+margin: 0;
+color: #fff;
+font-family: 'Wix Madefor Display', sans-serif;
+
+
+}
+
+#welcome p {
+
+  color: #fff; /* Set text color */
+  font-family: '', sans-serif; /* Add your font */
+  font-family: 'Nunito', sans-serif;
+  max-width: 600px;
+  
+}
+
+.container {
+  background-color: #000;
+  color: #fff;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  
+  
+  
+}
+
+.column {
+ flex: 1; /* Each column takes an equal portion of available space */
+ padding: 20px;
+}
+
+.wrapper #team {
+  background-color: #7251B5;
+}

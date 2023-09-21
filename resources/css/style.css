@@ -15,9 +15,12 @@ margin: 0 auto;
 }
 
 h1 {
-  
+text-transform: uppercase;
+font-family: 'Wix Madefor Display', sans-serif;
+font-size: 7rem;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-/* headings - come back to this */
+
 
 #company-name {
   color: #dec9e9;
@@ -29,6 +32,13 @@ h1 {
 #team {
   padding: 4em 0;
 }
+
+#intro h2 {
+  font-family: 'Wix Madefor Display', sans-serif;
+  font-size: 2rem;
+
+}
+
 
 #header {
   background-color: #000;
@@ -87,6 +97,11 @@ max-width: 50%;
   color: #dec9e9;
  }
 
+#fan-favs h2{
+  font-family: 'Wix Madefor Display', sans-serif;
+  font-size: 2rem;
+}
+
  #fan-favs ol {
   list-style: none;
   padding-left: 0;
@@ -99,6 +114,9 @@ max-width: 50%;
   width: 50%;
   padding-right: 15%;
 }
+
+
+
 
 .teamgrid {
   display: grid;
@@ -118,6 +136,12 @@ background-color: #7251b5
   text-align: center;
 }
 
+#team h2 {
+  font-family: 'Wix Madefor Display', sans-serif;
+  font-size: 2rem;
+}
+
+
 .teamgrid article {
   background-color: #6647a6;
   border-radius: 40px;
@@ -127,7 +151,7 @@ background-color: #7251b5
 
 .teamgrid article img {
   width: 80px;
-  border: 50%;
+  border-radius: 50%;
   filter: grayscale(100%);
 }
 
